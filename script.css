@@ -1,0 +1,20 @@
+.smallSidebar{
+    width: 5%;
+
+}
+
+.smallSidebar a p{
+    display: none;
+}
+
+.smallSidebar h3{
+    display: none;
+}
+.smallSidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.Bigcontainer{
+    padding-left: 7%;
+}

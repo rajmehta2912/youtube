@@ -1,0 +1,93 @@
+@media (max-width : 900px) {
+    .menu{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    
+    .container{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .Bigcontainer{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .nav-right img{
+        display: none;
+    }
+
+    .nav-right .user {
+        display: block;
+        width: 30px;
+    }
+
+    .nav-middle .searchbox input{
+        width: 100px;
+    }
+
+    .nav-middle .mic{
+        display: none;
+    }
+    .logo{
+        width: 90px;
+    }
+    
+
+}
+
+@media (max-width : 900px) {
+    .play-video{
+        flex-basis: 100%;
+    }
+    
+    .Rsidebar{
+        margin-top: 5%;
+        flex-basis: 100%;
+    }
+    
+    .video-container{
+        padding-left: 9%;
+    }
+
+    .video-dis{
+        padding-left: 0;
+    }
+
+    .videoinfo{
+        width: 100%;
+        padding-right: 5%;
+        flex-direction: row;
+    }
+
+    .videoinfo1{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width : 900px){
+    #subjoin{
+        font-size: 0.2rem;
+    }
+    
+    #icons{
+       margin-right: 28%;
+    }
+    #icons > :first-child{
+        padding: 2% 2%;
+    }
+    #icons >:nth-child(2){
+        padding: 2% 2%;
+    }
+    
+    #icons >:nth-child(3){
+        padding: 2% 2%;
+    }
+    #icons >:nth-child(4){
+        padding: 2% 2%;
+    }
+
+
+}

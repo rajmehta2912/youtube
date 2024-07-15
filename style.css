@@ -1,0 +1,420 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img{
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+
+}
+
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .user{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+
+.nav-left .menu{
+    width: 22px;
+    margin-right: 25px;
+
+}
+
+.nav-left .logo{
+    width: 130px;
+    height: 60px;
+}
+
+.nav-middle .mic{
+    width: 15px;
+
+}
+
+.nav-middle .searchbox{
+    border: 1px solid black;
+    margin-right: 15px;
+    padding: 8px 12px ;
+    border-radius: 25px;
+}
+
+.nav-middle .searchbox input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+
+}
+
+.nav-middle .searchbox img{
+    width: 15px;
+
+}
+
+
+
+/* Sidebar */
+
+
+.sidebar{
+    background: white;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+.shortcut a img{
+    width: 18px;
+    margin-right: 20px;
+
+}
+
+.shortcut a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+#home{
+    color: red;
+}
+
+.sidebar hr{
+    width: 85%;
+    border: 0;
+    height: 1px;
+    background: #d1cfcf;
+}
+
+
+.sidebar h3{
+    font-size: 15px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.subscribers h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.subscribers a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+
+.subscribers a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+/* Main section */
+
+.container{
+    background: #f9f9f9;
+    padding-left: 16%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(315px , 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+
+
+}
+
+.videos .thumbnail{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.videos .navbar{
+    align-items: flex-start;
+    margin-top: 7px;
+
+}
+
+.videos .navbar img{
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.info{
+    color: #5a5a5a;
+    font-size: 0.95rem;
+}
+
+.info a {
+    color: black;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Videos page */
+
+.Video-container{
+    padding-left: 6%;
+    border-radius: 2rem;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.play-video{
+    flex-basis: 62%;
+}
+
+
+.play-video video {
+    width: 100%;
+}
+
+
+.Rsidebar{
+    flex-basis: 37%;
+}
+
+
+.sidevideos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.sidevideos img{
+    width: 100%;
+}
+
+.sidevideos .odd-thumbnail{
+    flex-basis: 49%;
+}
+
+.sidevideos .vidinfo{
+    flex-basis: 49%;
+}
+
+
+.vidinfo{
+    color: #5a5a5a;
+    font-size: 0.95rem;
+}
+
+.vidinfo a{
+    color: black;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+.play-video .tags a {
+    color: #00f;
+    font-size: 0.9rem;
+}
+
+
+.play-video h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.play-video .videoinfo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 0.98rem;
+    color: grey;
+}
+
+
+.play-video .videoinfo a img{
+    width: 28px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+
+.play-video .videoinfo a {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
+
+ .videoinfo .videoinfo1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    cursor: pointer;;
+    /* padding-right: 50%; */
+ }
+
+
+ .videoinfo1 > :first-child{
+    color: black;
+    font-weight: 600;
+ }
+
+ #join{
+    color: rgb(12, 0, 0);
+    background: rgb(229, 227, 227);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4rem;
+    margin-left: 5%;
+    padding: 3% 6%;
+    cursor: pointer;
+ }
+
+ #sub{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4rem;
+    margin-left: 8%;
+    padding: 3% 6%;
+    cursor: pointer;
+ }
+
+
+#subjoin{
+    display: flex;
+   margin-right: 7%;
+}
+
+#icons{
+    display: flex;
+}
+
+#icons > :first-child{
+    padding: 1% 5%;
+    background: rgb(229, 227, 227);
+    color: black;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+}
+
+#icons >:nth-child(2){
+    padding: 1% 5%;
+    background: rgb(229, 227, 227);
+    color: black;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+
+}
+#icons >:nth-child(3){
+    padding: 1% 5%;
+    background: rgb(229, 227, 227);
+    color: black;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+
+}
+#icons >:nth-child(4){
+    padding: 1% 5%;
+    background: rgb(229, 227, 227);
+    color: black;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+
+}
+
+
+/* discription box */
+
+.video-dis{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    color: black;
+    background: rgb(239, 238, 238);
+    border-radius: 2rem;
+    font-weight: 500;
+}
+
+.video-dis > :first-child{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.video-dis >:nth-child(2){
+    margin-left: 4%;
+    color: #00f;
+}
+.video-dis >:nth-child(3){
+    margin-left: 4%;
+}
+.video-dis >:nth-child(4){
+    margin-left: 4%;
+}
